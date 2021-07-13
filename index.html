@@ -3,31 +3,57 @@
 <head>
 <style>
 
-*{
+body{
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(188,22,203,1) 50%, rgba(0,0,0,1) 100%);
+    
+}
+
+.test{
+
+    display: flex;
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    justify-content:center;
+
 }
 
 .image {
-    width: 300px;
-    height: 300px;
+    
+    float: left;
+}
 
+.number {
 
+    
+    color:white;
+    font-size: 70px;  
+    float: left;
+    justify-content:center;
+
+    margin: 0px
 }
 
 .title {
+    color: white;
+    font-size: 100px;  
+    position: absolute;
+    top: 5%;
+    width: 100%;
     text-align: center;
+
 }
 </style>
 </head>
 <body>
 
-<h1>Coins</h1>
+<h1 class="title">Lollipop Coins</h1>
 
-<img src="l.png" class="image">
-
-<h2>10.000</h2>
-
+<div class="test">
+    <img src="l.png" class="image" width="75px" height="75px">
+    <h2 class="number">&nbsp;10.000</h2>
+</div>
 
 </body>
 </html>
